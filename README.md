@@ -3,7 +3,7 @@
 # cli-goodies
 
 - [aliases](#aliases)
-- [`cdf` to current Finder directory](#cdf-to-current-finder-directory)
+- [`cd` to current Finder directory](#cd-to-current-finder-directory)
 - [easy git commit with message](#easy-git-commit-with-message)
 - [easy gist clone](#easy-gist-clone)
 - [git ignore a file](#git-ignore-a-file)
@@ -28,7 +28,7 @@ alias nig="npm install -g"
 alias irc="mosh raine@host -- screen -rd irc"
 ```
 
-## `cdf` to current Finder directory
+## `cd` to current Finder directory
 
 ```sh
 cdf() {
