@@ -85,7 +85,7 @@ pip install Pygments
 
 ```sh
 jscat() {
-  < $1 | js-beautify -f - | pygmentize -g | less -F
+  < $1 | js-beautify -s 2 -f - | pygmentize -g | less -F
 }
 ```
 
