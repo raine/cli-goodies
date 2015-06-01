@@ -111,6 +111,9 @@ adding .../node_modules/.bin to path
 
 ## tmux+vim: reflow vim windows after tmux pane zoom in/out
 
+This makes vim window splits adjust to the new window size when tmux zoom out
+/ zoom in (Prefix+z) is used.
+
 Put to `$PATH` as `tmux-zoom-out-vim`:
 
 ```sh
