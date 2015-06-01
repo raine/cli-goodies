@@ -9,6 +9,7 @@
 - [easy git ignore](#easy-git-ignore)
 - [beautify and syntax highlight a JavaScript file](#beautify-and-syntax-highlight-a-javascript-file)
 - [add npm bin to $PATH](#add-npm-bin-to-path)
+- [tmux+vim: reflow vim windows after tmux pane zoom in/out](#tmuxvim-reflow-vim-windows-after-tmux-pane-zoom-inout)
 - [trim empty area around an image](#trim-empty-area-around-an-image)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -106,6 +107,31 @@ npm-bin-path() {
 ```sh
 $ npm-bin-path
 adding .../node_modules/.bin to path
+```
+
+## tmux+vim: reflow vim windows after tmux pane zoom in/out
+
+Put to `$PATH` as `tmux-zoom-out-vim`:
+
+```sh
+#!/usr/bin/env bash
+set -e
+
+cmd="$(tmux display -p '#{pane_current_command}')"
+cmd="$(basename "${cmd,,*}")"
+
+tmux resize-pane -Z
+
+if [ "${cmd%m}" = "vi" ]; then
+  sleep 0.1
+  tmux send-keys C-w =
+fi
+```
+
+Configure in `tmux.conf`:
+
+```
+bind-key z run-shell 'tmux-zoom-out-vim'
 ```
 
 ## trim empty area around an image
