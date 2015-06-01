@@ -6,7 +6,7 @@
 - [`cd` to current Finder directory](#cd-to-current-finder-directory)
 - [easy git commit with message](#easy-git-commit-with-message)
 - [easy gist clone](#easy-gist-clone)
-- [git ignore a file](#git-ignore-a-file)
+- [easy git ignore](#easy-git-ignore)
 - [beautify and syntax highlight a JavaScript file](#beautify-and-syntax-highlight-a-javascript-file)
 - [add npm bin to $PATH](#add-npm-bin-to-path)
 - [trim empty area around an image](#trim-empty-area-around-an-image)
@@ -68,7 +68,7 @@ gist-clone() {
 gist-clone https://gist.github.com/raine/ef467c47029f1d26c30b dir-name
 ```
 
-## git ignore a file
+## easy git ignore
 
 ```sh
 git-ignore() {

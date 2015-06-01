@@ -1,4 +1,4 @@
-git ignore a file
+easy git ignore
 
 ```sh
 git-ignore() {
