@@ -5,7 +5,7 @@
 - [aliases](#aliases)
 - [`cd` to current Finder directory](#cd-to-current-finder-directory)
 - [easy git commit with message](#easy-git-commit-with-message)
-- [use `diff` to compare files changed by a tool](#use-diff-to-compare-files-changed-by-a-tool)
+- [use `diff` to compare files changed by a command](#use-diff-to-compare-files-changed-by-a-command)
 - [easy gist clone](#easy-gist-clone)
 - [easy git ignore](#easy-git-ignore)
 - [beautify and syntax highlight a JavaScript file](#beautify-and-syntax-highlight-a-javascript-file)
@@ -55,7 +55,7 @@ c() {
 c this is a commit message
 ```
 
-## use `diff` to compare files changed by a tool
+## use `diff` to compare files changed by a command
 
 No temporary files
 

@@ -1,4 +1,4 @@
-use `diff` to compare files changed by a tool
+use `diff` to compare files changed by a command
 
 No temporary files
 
