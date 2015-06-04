@@ -88,7 +88,7 @@ gist-clone https://gist.github.com/raine/ef467c47029f1d26c30b dir-name
 
 ## git aliases
 
-Put these to `[alias]` in `.gitconfig`.
+Put these to `[alias]` section in `.gitconfig`.
 
 ### temporary commit
 

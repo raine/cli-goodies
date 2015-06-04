@@ -1,6 +1,6 @@
 git aliases
 
-Put these to `[alias]` in `.gitconfig`.
+Put these to `[alias]` section in `.gitconfig`.
 
 ### temporary commit
 
